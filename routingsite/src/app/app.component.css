@@ -1,0 +1,68 @@
+#bg{
+  margin: -1.1vw;
+  width: 100.75vw;
+  overflow-x: hidden;
+  overflow-y: visible;
+  height: 100vw;
+  background-image: url("./img/belize.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  transform: none;
+  position: absolute;
+}
+
+#nav {
+  margin: -1.5vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  height: 5vw;
+  width: 100vw;
+  transition: top 0.2s ease-in-out;
+  position: fixed;
+  background-image: url("https://wildwestdayscavecreek.com/wp-content/uploads/2015/02/nice-wood-floor-background-with-wood-floor-hd-wallpaper-wood-floor-hd-wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  border-bottom-style: solid;
+  border-bottom-width: .5vw;
+}
+
+#nav-up {
+  top: 5vw;
+}
+
+#nav h1 {
+  display: inline-block;
+  font-family: fantasy;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  font-size: 5vw;
+  color: white;
+  text-shadow: 2px 2px #636363;
+}
+
+form.nav {
+  padding-top: 3vw;
+  display: inline-block;
+  margin-left: 7vw;
+}
+
+input.nav {
+  background: transparent;
+  border: none;
+  font-family: fantasy;
+  font-size: 3vw;
+  color: white;
+  text-shadow: 1px 4px #484848;
+}
+
+input.nav:hover {
+  color: black;
+  text-decoration: underline;
+  text-shadow: none;
+}
